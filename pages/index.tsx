@@ -208,7 +208,7 @@ const Home: NextPage = () => {
           </div>
         </section>
 
-        <section id="how-it-works" className="mt-20 md:mt-48">
+        <section className="mt-20 md:mt-48">
           <div className="w-full md:w-10/12 h-full mx-auto grid grid-cols-1 md:grid-cols-2">
             <div className="h-full">
               <h5 className="text-2xl md:text-4xl font-medium mb-6">
@@ -232,7 +232,7 @@ const Home: NextPage = () => {
           </div>
         </section>
 
-        <section id="how-it-works" className="mt-16 md:mt-48">
+        <section className="mt-16 md:mt-48">
           <div className="w-full md:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2">
             <div className="order-last md:order-first relative my-5 md:my-0 w-full h-full min-h-[200px]">
               <Image
