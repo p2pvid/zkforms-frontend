@@ -211,7 +211,10 @@ const FormBuilder = () => {
       </p>
       <div className="text-center my-5">
         <Link href={process.env.NEXT_PUBLIC_HOST!}>
-          <a target="_blank" className="text-2xl font-light text-gray-500">
+          <a
+            // target="_blank"
+            className="text-2xl font-light text-gray-500"
+          >
             Created with <span className="font-medium">zkForms</span>
           </a>
         </Link>

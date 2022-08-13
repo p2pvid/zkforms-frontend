@@ -40,7 +40,7 @@ const Summary = ({
           <CSVLink
             data={data}
             filename={`zkdocs-wallets.csv`}
-            target="_blank"
+            // target="_blank"
             className="text-blue-500"
           >
             Download
@@ -58,7 +58,7 @@ const Summary = ({
           <CSVLink
             data={data}
             filename={`zkdocs-${question.replaceAll(' ', '-')}.csv`}
-            target="_blank"
+            // target="_blank"
             className="text-blue-500"
           >
             Download

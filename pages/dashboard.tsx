@@ -15,13 +15,16 @@ const Item = ({ title, cid }: { title: string; cid: string }) => {
       <h5 className="flex-1 text-xl">{title}</h5>
       <div>
         <Link href={`/${cid}/view`}>
-          <a target="_blank" className="btn font-medium mx-2">
+          <a
+            // target="_blank"
+            className="btn font-medium mx-2"
+          >
             View
           </a>
         </Link>
         <Link href={`/${cid}/analytics`}>
           <a
-            target="_blank"
+            // target="_blank"
             className="btn font-medium mx-2 bg-blue-400 text-white"
           >
             Analytics
