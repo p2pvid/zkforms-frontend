@@ -198,7 +198,7 @@ const FormBuilder = () => {
           className="btn text-purple-800 hover:text-purple-700 hover:bg-purple-200 transition-all !font-medium !shadow-none text-sm"
           onClick={() => {
             setValue({});
-            window.location.reload();
+            // window.location.reload();
           }}
         >
           Clear form
