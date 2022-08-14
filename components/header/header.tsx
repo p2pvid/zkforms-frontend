@@ -11,11 +11,11 @@ const Header = () => {
 
   return (
     <div className="w-full bg-white">
-      <div className="w-full flex mx-auto items-center justify-between py-3 px-5 md:py-4 md:px-20 shadow dark:shadow-gray-300">
+      <div className="w-full flex mx-auto items-center justify-between flex-wrap py-3 px-5 md:py-4 md:px-20 shadow dark:shadow-gray-300">
         <Link href="/">
           <a className="text-xl font-bold cursor-pointer">zkForms</a>
         </Link>
-        <div className="flex-1 flex justify-center">
+        <div className="flex-1 hidden md:flex justify-center">
           {pathname === '/' && (
             <>
               <Link href="#how-it-works">

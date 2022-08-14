@@ -138,7 +138,7 @@ const FormBuilder = () => {
   };
 
   return (
-    <div className="relative w-full md:w-1/2 mx-auto">
+    <div className="relative w-full md:w-1/2 mx-auto px-5 md:px-0">
       <Header
         title={data.title}
         deadline={data.deadline}

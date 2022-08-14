@@ -17,7 +17,7 @@ const Analytics: NextPage = () => {
 
       <Header />
 
-      <main className="container mx-auto my-14 flex-1">
+      <main className="container mx-auto my-14 flex-1 px-5 md:px-0">
         <FormAnalytics />
       </main>
 

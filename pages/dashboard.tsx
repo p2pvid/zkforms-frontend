@@ -12,12 +12,12 @@ import Spinner from '../components/spinner';
 const Item = ({ title, cid }: { title: string; cid: string }) => {
   return (
     <div className="flex flex-col md:flex-row my-4 px-5 py-4 rounded-xl shadow-md">
-      <h5 className="flex-1 text-xl">{title}</h5>
+      <h5 className="flex-1 text-base md:text-xl mb-5 md:mb-0">{title}</h5>
       <div>
         <Link href={`/${cid}/view`}>
           <a
             // target="_blank"
-            className="btn font-medium mx-2"
+            className="btn text-sm md:text-base font-medium mx-2"
           >
             View
           </a>
@@ -25,7 +25,7 @@ const Item = ({ title, cid }: { title: string; cid: string }) => {
         <Link href={`/${cid}/analytics`}>
           <a
             // target="_blank"
-            className="btn font-medium mx-2 bg-blue-400 text-white"
+            className="btn text-sm md:text-base font-medium mx-2 bg-blue-400 text-white"
           >
             Analytics
           </a>
@@ -72,9 +72,9 @@ const Dashboard: NextPage = () => {
       <Header />
 
       <main className="container flex-1 mx-auto px-6 mb-20 md:px-4">
-        <h2 className="text-2xl font-semibold my-4">
+        <h2 className="text-xl md:text-2xl font-semibold my-4">
           Dashboard -{' '}
-          <span className="text-md font-semibold text-gray-500 my-4">
+          <span className="text-base md:text-xl font-semibold text-gray-500 my-4">
             View all your forms
           </span>
         </h2>

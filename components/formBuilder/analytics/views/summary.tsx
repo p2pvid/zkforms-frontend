@@ -79,7 +79,10 @@ const Summary = ({
             </p>
             <ul className="my-2">
               {formData?.slice(0, 5).map((data: any, index: number) => (
-                <li key={index} className="p-2 my-2 bg-gray-100 rounded-lg">
+                <li
+                  key={index}
+                  className="p-2 my-2 bg-gray-100 rounded-lg  truncate"
+                >
                   {data.user}
                 </li>
               ))}

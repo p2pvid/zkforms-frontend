@@ -62,7 +62,7 @@ const Home: NextPage = () => {
           isSelected(index) ? 'open' : ''
         }`}
       >
-        <p className="font-light">{description}</p>
+        <p className="font-light text-sm md:text-base">{description}</p>
       </div>
     </div>
   );

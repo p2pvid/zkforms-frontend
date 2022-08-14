@@ -16,7 +16,9 @@ const Header = ({
   return (
     <div className="shadow-md rounded-md bg-white">
       <div className="p-4">
-        <h2 className="text-3xl font-medium">{responses} responses</h2>
+        <h2 className="text-xl md:text-3xl font-medium">
+          {responses} responses
+        </h2>
       </div>
       <ul
         className={`grid ${

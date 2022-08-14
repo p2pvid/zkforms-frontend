@@ -30,17 +30,17 @@ const Header = ({
             </p>
           )}
         </div>
-        <p className="mt-4 text-base text-gray-800">{description}</p>
+        <p className="mt-4 text-sm md:text-base text-gray-800">{description}</p>
       </div>
       <div className="border-t p-4">
-        <p className="text-sm text-gray-800">
+        <p className="text-sm text-gray-800 truncate">
           <span className="font-medium">Created by: </span>
           {owner}
         </p>
       </div>
       <div className="px-4 pb-4">
         {isResponseView ? (
-          <p className="text-sm text-gray-800">
+          <p className="text-sm text-gray-800 truncate">
             <span className="font-medium">Submitted by: </span>
             {responseAddress}
           </p>
