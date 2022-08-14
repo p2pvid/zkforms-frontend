@@ -20,8 +20,8 @@ const generate = async (pKey, whitelisted, formID) => {
     const start = new Date().getTime();
     const { proof, publicSignals } = await snarkjs.groth16.fullProve(
       inputs,
-      '/circuit.wasm',
-      'https://cloudflare-ipfs.com/ipfs/bafybeidf5knam5nygkqo4nvpez7zj6a7jberur2anjc4vvcvczqav5yfcq/circuit.zkey'
+      'https://dx9qacyqak197.cloudfront.net/circuit.wasm',
+      'https://dx9qacyqak197.cloudfront.net/circuit.zkey'
     );
     const end = new Date().getTime();
     const time = end - start;
