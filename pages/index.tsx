@@ -167,7 +167,7 @@ const Home: NextPage = () => {
               />
               <H6>Polygon Network</H6>
             </div>
-            <div className="my-5 flex flex-col justify-center hover:scale-105 transition-all duration-200">
+            {/* <div className="my-5 flex flex-col justify-center hover:scale-105 transition-all duration-200">
               <Image
                 src="/static/goerli.svg"
                 alt="goerli"
@@ -176,7 +176,7 @@ const Home: NextPage = () => {
                 objectFit="contain"
               />
               <H6>Ethereum Goerli</H6>
-            </div>
+            </div> */}
           </div>
         </section>
 
