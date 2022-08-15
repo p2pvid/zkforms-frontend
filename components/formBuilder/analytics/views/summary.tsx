@@ -32,14 +32,14 @@ const Summary = ({
 
   const renderDownload = (item: any) => {
     // @ts-ignore
-    if (Array.isArray(formData[item]) && formData[item].length > 5) {
+    if (Array.isArray(formData[item])) {
       // @ts-ignore
       const data = [[...formData[item]]];
       return (
         <div className="text-right">
           <CSVLink
             data={data}
-            filename={`zkdocs-wallets.csv`}
+            filename={`zkForms-wallets.csv`}
             // target="_blank"
             className="text-blue-500"
           >
@@ -51,13 +51,13 @@ const Summary = ({
   };
 
   const renderDownloadResponses = (question: string) => {
-    if (Array.isArray(responses[question]) && responses[question].length > 5) {
+    if (Array.isArray(responses[question])) {
       const data = [[...responses[question]]];
       return (
         <div className="text-right">
           <CSVLink
             data={data}
-            filename={`zkdocs-${question.replaceAll(' ', '-')}.csv`}
+            filename={`zkForms-${question.replaceAll(' ', '-')}.csv`}
             // target="_blank"
             className="text-blue-500"
           >
